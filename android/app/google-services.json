@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "964748509921",
+    "project_id": "instagram-clone-18663",
+    "storage_bucket": "instagram-clone-18663.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964748509921:android:e7e126f2d2fd55cbaa6da0",
+        "android_client_info": {
+          "package_name": "Maheresio.org.instagram_clone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIInmvFI7bKKN7Jr5oWMmzNUKZ4YyA2Zc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
