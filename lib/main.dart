@@ -1,13 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:instagram_clone/core/utils/firebase_init.dart';
+import 'package:instagram_clone/core/utils/supabase_init.dart';
 
 import 'core/utils/app_router.dart';
+import 'core/utils/dotenv_load.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await ScreenUtil.ensureScreenSize();
-  await initializeFirebase();
+  await firebaseInit();
+  await dotenvLoad();
+  await supabaseInit();
+  
 
   runApp(MyApp());
 }

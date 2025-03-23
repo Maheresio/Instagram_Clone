@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="facebook_app_id">699384832425339</string>
+        <string name="fb_login_protocol_scheme">fb699384832425339</string>
+        <string name="facebook_client_token">c5cddecf8bbb0211466b1d5df330f77b</string>
+        <string name="app_name">Maheresio.org.instagram_clone</string>
+</resources>
